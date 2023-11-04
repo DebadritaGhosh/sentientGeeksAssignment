@@ -1,0 +1,11 @@
+.ratingDropdonModal{
+    border: 1px solid #999999;
+    width: 84%;
+}
+
+@media screen and (max-width: 1023px) {
+    .ratingDropdonModal{
+        width: 100%;
+    }
+    
+}

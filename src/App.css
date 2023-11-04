@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__container {
+  background-color: #FFF;
+  height: 100vh;
+  width: 100;
+  /* padding: 3%; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__innerContainer {
+  /* background-color: red; */
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.app__inputContainer {
+  /* background-color: green; */
+  width: 69%;
+  /* padding: 2% 0; */
+  /* border: 1px solid #999999; */
+  /* background-color: aquamarine; */
+}
+
+.app__inputContainer input {
+  /* background-color: blueviolet; */
+  width: 100%;
+  padding: 2%;
+  font-size: 1rem;
+  border: 1px solid #999999;
+  outline: none;
+  /* background-color: pink; */
+}
+
+.app__dropdownContainer {
+  /* background-color: pink; */
+  width: 30%;
   display: flex;
   flex-direction: column;
+}
+
+.app__dropdownInnerContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.app__dropdown {
+  width: 40%;
+  /* background-color: green; */
+  margin-right: 1rem;
+  padding: 6% 2.5%;
+  height: 3em;
+  border: 1px solid #999999;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1023px) {
+  .app__innerContainer {
+    /* background-color: blue; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .app__dropdownContainer{
+    /* background-color: red; */
+    margin-top: 1rem;
+    width : 70%
+  }
+  .app__dropdownInnerContainer{
+    /* background-color: orange; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .app__dropdownInnerContainer{
+    margin: 0;
+  }
+  .app__dropdown{
+    margin: 0;
+    max-height: 1rem;
+  }
+  .app__dropdownItems{
+    /* background-color: green; */
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
   }
 }

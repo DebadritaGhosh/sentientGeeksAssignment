@@ -1,0 +1,14 @@
+.genreDropdonModal{
+    border: 1px solid #999999;
+    width: 50%;
+    margin-left: 43%;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .genreDropdonModal{
+        margin: 0;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.modalComponent__container{
+    /* background-color: green; */
+    margin-top: 1rem;
+    min-height: 5rem;
+    border: 1px solid #999999;
+}
+
+.modalComponent__item{
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+.modalComponent__leftContent p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.modalComponent__rightContent p{
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+.modalComponent__noData{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}

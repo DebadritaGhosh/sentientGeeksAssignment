@@ -1,0 +1,14 @@
+.customDropdownComponent__container{
+    padding: 2%;
+    /* background-color: cyan; */
+    display: flex;
+    width: 85%;
+}
+.customDropdownComponent__leftItem{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.data.numberOfStar p {
+    font-size: 0.8rem;
+}
